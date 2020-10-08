@@ -21,6 +21,5 @@ user_pref("media.peerconnection.use_document_iceservers", false);
 user_pref("media.peerconnection.video.enabled", false);
 user_pref("media.peerconnection.identity.timeout", 1);
 
-// Store cookies and history
-user_pref("privacy.clearOnShutdown.cookies", false);
-user_pref("privacy.clearOnShutdown.history", false);
+// Disable website access to clipboard events/content
+user_pref("dom.event.clipboardevents.enabled", false);
