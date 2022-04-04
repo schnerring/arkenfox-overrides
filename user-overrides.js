@@ -2,11 +2,8 @@
 user_pref("network.http.referer.XOriginPolicy", 0);
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
-// Enable location bar using search
+// 0801: Enable search from urlbar
 user_pref("keyword.enabled", true);
-
-// Disable saving passwords
-user_pref("signon.rememberSignons", false);
 
 // See also: https://www.privacytools.io/browsers/#about_config
 // This is Mozilla's new built-in tracking protection. One of it's benefits is
