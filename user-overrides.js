@@ -6,3 +6,6 @@ user_pref("keyword.enabled", true);
 
 // 2811: Keep history
 user_pref("privacy.clearOnShutdown.history", false);
+
+// 5003: disable saving passwords
+user_pref("signon.rememberSignons", false);
