@@ -1,6 +1,6 @@
 // URL bar search
 user_pref("keyword.enabled", true);                   // 0801: enabled urlbar search
-user_pref("browser.search.suggest.enabled", false);   // 0804: live search suggestions
+user_pref("browser.search.suggest.enabled", true);    // 0804: live search suggestions
 
 // Session Restore
 user_pref("browser.startup.page", 3);                 // 0102: enable session restore
