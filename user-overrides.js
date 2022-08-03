@@ -9,7 +9,7 @@ user_pref("privacy.cpd.history", false);              // 2820: untick history in
 
 // Other
 user_pref("signon.rememberSignons", false);           // 5003: disable saving passwords
-user_pref("network.file.disable_unc_paths", true);    // 0703: enalbe UNC paths
+user_pref("network.file.disable_unc_paths", false);   // 0703: enalbe UNC paths
 
 // TODO
 //user_pref("media.peerconnection.enabled", false);     // 2001: disable WebRTC
