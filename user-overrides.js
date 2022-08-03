@@ -13,3 +13,6 @@ user_pref("network.file.disable_unc_paths", false);   // 0703: enalbe UNC paths
 
 // TODO
 //user_pref("media.peerconnection.enabled", false);     // 2001: disable WebRTC
+
+// Personal
+user_pref("extensions.pocket.enabled", false);        // 0900: disable Pocket
