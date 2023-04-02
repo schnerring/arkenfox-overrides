@@ -16,3 +16,6 @@ user_pref("network.file.disable_unc_paths", false);   // 0703: enalbe UNC paths
 
 // Personal
 user_pref("extensions.pocket.enabled", false);        // 0900: disable Pocket
+
+// Enable link prefetching
+user_pref("network.prefetch-next", true);             // 0601: disable link prefetching
