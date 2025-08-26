@@ -1,21 +1,14 @@
-// URL bar search
-user_pref("keyword.enabled", true);                   // 0801: enabled urlbar search
-user_pref("browser.search.suggest.enabled", true);    // 0804: live search suggestions
+// enable session restore
+user_pref("browser.startup.page", 3);
+user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false);
+user_pref("privacy.clearSiteData.browsingHistoryAndDownloads", false);
+user_pref("privacy.clearHistory.browsingHistoryAndDownloads", false);
 
-// Session Restore
-user_pref("browser.startup.page", 3);                 // 0102: enable session restore
-user_pref("privacy.clearOnShutdown.history", false);  // 2811: don't clear history on close
-user_pref("privacy.cpd.history", false);              // 2820: untick history in Ctrl-Shift-Del dialog
+// enable live search suggestions
+user_pref("browser.search.suggest.enabled", true);
 
-// Other
-user_pref("signon.rememberSignons", false);           // 5003: disable saving passwords
-user_pref("network.file.disable_unc_paths", false);   // 0703: enalbe UNC paths
+// disable saving passwords
+user_pref("signon.rememberSignons", false);
 
-// TODO
-//user_pref("media.peerconnection.enabled", false);     // 2001: disable WebRTC
-
-// Personal
-user_pref("extensions.pocket.enabled", false);        // 0900: disable Pocket
-
-// Enable link prefetching
-user_pref("network.prefetch-next", true);             // 0601: disable link prefetching
+// allow downloading to network storage
+user_pref("network.file.disable_unc_paths", false);
